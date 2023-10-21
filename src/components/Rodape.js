@@ -17,12 +17,25 @@ const linkStyle = {
   textDecoration: 'none',
 };
 
+const gridItemStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  textAlign: 'center',
+};
+
+const socialMediaContainerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '1rem',
+};
+
 function Rodape() {
   return (
     <Box style={rodapeStyle}>
       <Container maxWidth="lg">
         <Grid container spacing={3}>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} style={gridItemStyle}>
             <Typography variant="h6">Contate-nos</Typography>
             <Box display="flex" alignItems="center" mt={2}>
               <PhoneIcon />
@@ -33,9 +46,9 @@ function Rodape() {
               <Typography variant="body2" ml={1}>Email: guilherme.santos@melhor.com.br</Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} style={gridItemStyle}>
             <Typography variant="h6">Siga-nos</Typography>
-            <Box display="flex" mt={1}>
+            <Box display="flex" style={socialMediaContainerStyle}>
               <Link href="https://www.instagram.com/eog_xx" color="inherit" target="_blank" style={linkStyle}>
                 <IconButton color="inherit">
                   <InstagramIcon fontSize="small" />
@@ -49,30 +62,16 @@ function Rodape() {
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Typography variant="h6">Informações Adicionais</Typography>
-            <Box display="flex" mt={1}>
-              <Link href="#" color="inherit" style={linkStyle}>
-                <Typography variant="body2" ml={1}>Política de Privacidade</Typography>
-              </Link>
-              <Link href="#" color="inherit" style={linkStyle}>
-                <Typography variant="body2" ml={1}>Termos de Uso</Typography>
-              </Link>
+            <Box mt={4}>
+              <Typography variant="caption">
+                IFMS Dourados – Trabalho de Frameworks2 – Prof. Ricardo
+              </Typography>
+              <Typography variant="caption">
+                Guilherme Santos de Oliveira
+              </Typography>
             </Box>
           </Grid>
         </Grid>
-        <center>
-          <Box mt={2}>
-            <Typography variant="caption">
-              IFMS Dourados – Trabalho de Frameworks2 – Prof. Ricardo
-            </Typography>
-            <br />
-            <Typography variant="caption">
-              <Link href="https://www.instagram.com/eog_xx" style={linkStyle}>
-                Guilherme Santos de Oliveira
-              </Link>
-            </Typography>
-          </Box>
-        </center>
       </Container>
     </Box>
   );
