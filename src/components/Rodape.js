@@ -46,7 +46,7 @@ function Rodape() {
               <Typography variant="body2" ml={1}>Email: guilherme.santos@melhor.com.br</Typography>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4} style={gridItemStyle}>
+          <Grid item xs={12} md={3} style={gridItemStyle}>
             <Typography variant="h6">Siga-nos</Typography>
             <Box display="flex" style={socialMediaContainerStyle}>
               <Link href="https://www.instagram.com/eog_xx" color="inherit" target="_blank" style={linkStyle}>
@@ -58,12 +58,16 @@ function Rodape() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box mt={4}>
+              
               <Typography variant="caption">
                 IFMS Dourados – Trabalho de Frameworks2 – Prof. Ricardo
               </Typography>
+              <br />
+              <center>
               <Typography variant="caption">
                 Guilherme Santos de Oliveira
               </Typography>
+              </center>
             </Box>
           </Grid>
         </Grid>
