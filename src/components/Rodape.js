@@ -3,7 +3,6 @@ import { Container, Typography, Box, Grid, Link, IconButton } from '@mui/materia
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const rodapeStyle = {
   backgroundColor: '#333',
