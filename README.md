@@ -6,13 +6,13 @@
   npm install
 ```
 
-#### Rotas o projeto em produção
+#### Rodar o projeto em produção
 
 ```
   npm start
 ```
 
-#### Rotas o projeto em desevolvimento
+#### Rodar o projeto em desevolvimento
 
 ```
   npm rum dev
