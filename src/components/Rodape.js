@@ -54,11 +54,6 @@ function Rodape() {
                   <InstagramIcon fontSize="small" />
                 </IconButton>
               </Link>
-              <Link href="https://wa.me/5567998725601?text=Opa%2C+vim+pelo+seu+site%21" color="inherit" target="_blank" style={linkStyle}>
-                <IconButton color="inherit">
-                  <WhatsAppIcon fontSize="small" />
-                </IconButton>
-              </Link>
             </Box>
           </Grid>
           <Grid item xs={12} md={4}>
