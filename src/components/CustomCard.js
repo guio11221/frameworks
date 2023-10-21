@@ -4,7 +4,15 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-export default function CustomCard({ titulo, descricao }) {
+/**
+ * 
+ * @param {string} titulo titulo da noticia que deseja por no Card
+ * @param {string} descricao descricao da noticia 
+ * @param {Date} dataInit data de criação da noticia
+ * @param {Date} dataPub data de publicação da noticia
+ * @returns 
+ */
+export default function CustomCard({ titulo, descricao, dataInit, dataPub }) {
   const [mostrarDescricaoCompleta, setMostrarDescricaoCompleta] = useState(false);
 
   const toggleDescricao = () => {

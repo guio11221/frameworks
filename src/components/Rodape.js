@@ -57,15 +57,15 @@ function Rodape() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box mt={4}>
-              
+
               <Typography variant="caption">
                 IFMS Dourados – Trabalho de Frameworks2 – Prof. Ricardo
               </Typography>
               <br />
               <center>
-              <Typography variant="caption">
-                Guilherme Santos de Oliveira
-              </Typography>
+                <Typography variant="caption">
+                  Guilherme Santos de Oliveira
+                </Typography>
               </center>
             </Box>
           </Grid>
