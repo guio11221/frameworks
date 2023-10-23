@@ -1,4 +1,4 @@
-# Trabalho de frameworks - Ifms
+<p align="center"><img src="./public/frameworks.png" alt="project-image"></p>
 
 #### Baixar as Dependências 
 
